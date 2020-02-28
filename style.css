@@ -1,0 +1,234 @@
+body{
+    box-sizing: border-box;
+
+}
+
+header{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.Logo-container, .nav-links, .settings{
+    display: flex;
+
+}
+
+.Logo-container{
+
+    flex: 1;
+}
+
+.logo{
+    color: lightslategray;
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+nav{
+flex: 2;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color: lightslategray;
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.settings{
+flex: 1;
+justify-content: flex-end;
+list-style: none;
+}
+.settings-link{
+    color: lightslategray;
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.Front{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+
+}
+
+.Image-container{
+    position: relative;
+    text-align: center;
+    flex: 1;
+}
+.Front-text{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ImageFront{
+    width: 90%;
+    height: 40vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+.ImageBog{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Billede-text{
+    margin-top: 0px;
+    font-size: 11px;
+    color: black;
+}
+
+.Brød{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 81%;
+    display: flex;
+    margin: auto;
+    margin-top: 300px;
+    align-items: center;
+    color: lightslategray;
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.Forfatter{
+    flex: 1;
+    text-align: center;
+}
+.Forlag{
+    flex: 1;
+    text-align: center;
+}
+.Genre{
+    flex: 1;
+    text-align: center;
+}
+
+.Anden-linie{
+    font-size: 30px;
+}
+
+.Brød1{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 81%;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+
+    flex: 1;
+}
+.Brød2{
+    padding: 0px;
+    box-sizing: border-box;
+    width: 81%;
+    display: flex;
+    margin: auto;
+    margin-top: 300px;
+
+    flex: 1;
+}
+
+.Resume{
+    margin-left: 10vh;
+    color: gray;
+    font-size: 50px;
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+.KofodResume{
+    color: gray;
+    font-size: 50px;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: center;
+
+}
+.border{
+    width: 5vh;
+    height: 64.5vh;
+
+    background-color: gray;
+}
+.ResumeBorder{
+    background-color: lightgray;
+    flex: 1;
+}
+.KofodBorder{
+    background-color: lightgrey;
+    flex: 1;
+}
+.ResumeText{
+    color: gray;
+    font-size: 50 px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-align: justify;
+}
+.BorderText{
+    color: gray;
+    font-size: 25 px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    text-align: justify;
+}
+.Gruppene{
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.Medlem{
+    flex: 1;
+    color: gray;
+}
+
+Main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.FlexThatShit{
+  justify-content: space-around;
+  align-items: center;
+}
+.Seart{
+  flex: 1;
+  align-content: center;
+}
+.Bodydivision{
+    color: grey;
+    text-align: center;
+}
+.PersonBillede{
+    width: 20%;
+    height: 20%;
+
+}
+
+
+.DennisGadeKofodBorder{
+  background-color: gray;
+  flex: 1;
+
+}
